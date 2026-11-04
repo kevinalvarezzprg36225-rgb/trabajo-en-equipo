@@ -35,5 +35,19 @@ namespace equipo2
 			d.Show();
 			this.Hide();
 		}
+		
+		void CordenadasToolStripMenuItemClick(object sender, EventArgs e)
+		{
+			Cordenadas c=new Cordenadas();
+			c.Show();
+			this.Hide();
+		}
+		
+		void PuntosToolStripMenuItemClick(object sender, EventArgs e)
+		{
+			Puntos p=new Puntos();
+			p.Show();
+			this.Hide();
+		}
 	}
 }

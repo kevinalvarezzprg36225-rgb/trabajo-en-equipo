@@ -36,6 +36,7 @@ namespace equipo2
 		/// </summary>
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cordenadas));
 			this.label1 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
 			this.txtX = new System.Windows.Forms.TextBox();
@@ -44,6 +45,13 @@ namespace equipo2
 			this.lblResultado = new System.Windows.Forms.Label();
 			this.label3 = new System.Windows.Forms.Label();
 			this.label4 = new System.Windows.Forms.Label();
+			this.pictureBox1 = new System.Windows.Forms.PictureBox();
+			this.label5 = new System.Windows.Forms.Label();
+			this.label6 = new System.Windows.Forms.Label();
+			this.label7 = new System.Windows.Forms.Label();
+			this.label8 = new System.Windows.Forms.Label();
+			this.btnregresar = new System.Windows.Forms.Button();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// label1
@@ -122,11 +130,70 @@ namespace equipo2
 			this.label4.TabIndex = 9;
 			this.label4.Text = "|";
 			// 
+			// pictureBox1
+			// 
+			this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+			this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.pictureBox1.Location = new System.Drawing.Point(58, 162);
+			this.pictureBox1.Name = "pictureBox1";
+			this.pictureBox1.Size = new System.Drawing.Size(190, 152);
+			this.pictureBox1.TabIndex = 10;
+			this.pictureBox1.TabStop = false;
+			// 
+			// label5
+			// 
+			this.label5.Location = new System.Drawing.Point(72, 172);
+			this.label5.Name = "label5";
+			this.label5.Size = new System.Drawing.Size(23, 23);
+			this.label5.TabIndex = 11;
+			this.label5.Text = "IV";
+			// 
+			// label6
+			// 
+			this.label6.Location = new System.Drawing.Point(208, 172);
+			this.label6.Name = "label6";
+			this.label6.Size = new System.Drawing.Size(23, 23);
+			this.label6.TabIndex = 12;
+			this.label6.Text = "II";
+			// 
+			// label7
+			// 
+			this.label7.Location = new System.Drawing.Point(208, 274);
+			this.label7.Name = "label7";
+			this.label7.Size = new System.Drawing.Size(23, 23);
+			this.label7.TabIndex = 13;
+			this.label7.Text = "V";
+			// 
+			// label8
+			// 
+			this.label8.Location = new System.Drawing.Point(72, 274);
+			this.label8.Name = "label8";
+			this.label8.Size = new System.Drawing.Size(23, 23);
+			this.label8.TabIndex = 14;
+			this.label8.Text = "III";
+			// 
+			// btnregresar
+			// 
+			this.btnregresar.Location = new System.Drawing.Point(68, 319);
+			this.btnregresar.Margin = new System.Windows.Forms.Padding(2);
+			this.btnregresar.Name = "btnregresar";
+			this.btnregresar.Size = new System.Drawing.Size(163, 25);
+			this.btnregresar.TabIndex = 15;
+			this.btnregresar.Text = "Regresar";
+			this.btnregresar.UseVisualStyleBackColor = true;
+			this.btnregresar.Click += new System.EventHandler(this.BtnregresarClick);
+			// 
 			// Cordenadas
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(309, 245);
+			this.ClientSize = new System.Drawing.Size(309, 353);
+			this.Controls.Add(this.btnregresar);
+			this.Controls.Add(this.label8);
+			this.Controls.Add(this.label7);
+			this.Controls.Add(this.label6);
+			this.Controls.Add(this.label5);
+			this.Controls.Add(this.pictureBox1);
 			this.Controls.Add(this.label4);
 			this.Controls.Add(this.label3);
 			this.Controls.Add(this.lblResultado);
@@ -137,9 +204,16 @@ namespace equipo2
 			this.Controls.Add(this.label1);
 			this.Name = "Cordenadas";
 			this.Text = "Cordenadas";
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
+		private System.Windows.Forms.Button btnregresar;
+		private System.Windows.Forms.Label label8;
+		private System.Windows.Forms.Label label7;
+		private System.Windows.Forms.Label label6;
+		private System.Windows.Forms.Label label5;
+		private System.Windows.Forms.PictureBox pictureBox1;
 		private System.Windows.Forms.Label label4;
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.Label lblResultado;

@@ -79,12 +79,14 @@ namespace equipo2
 			this.puntosToolStripMenuItem.Name = "puntosToolStripMenuItem";
 			this.puntosToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
 			this.puntosToolStripMenuItem.Text = "&Puntos.";
+			this.puntosToolStripMenuItem.Click += new System.EventHandler(this.PuntosToolStripMenuItemClick);
 			// 
 			// cordenadasToolStripMenuItem
 			// 
 			this.cordenadasToolStripMenuItem.Name = "cordenadasToolStripMenuItem";
 			this.cordenadasToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
 			this.cordenadasToolStripMenuItem.Text = "&Cordenadas.";
+			this.cordenadasToolStripMenuItem.Click += new System.EventHandler(this.CordenadasToolStripMenuItemClick);
 			// 
 			// pictureBox1
 			// 
