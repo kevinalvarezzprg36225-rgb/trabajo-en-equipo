@@ -31,8 +31,26 @@ namespace equipo2
 		
 		void BtnCordenaClick(object sender, EventArgs e)
 		{
-			
-			
+			double x=0, y=0;
+			x= Convert.ToDouble(txtX.Text);
+			y= Convert.ToDouble(txtY.Text);
+			if(x < 0 && y >= 0)
+				lblResultado.Text="IV";
+			else if(x < 0 && y < 0)
+				lblResultado.Text="III";
+			else if(x > 0 && y >= 0)
+				lblResultado.Text="II";
+			else if(x > 0 && y < 0)
+				lblResultado.Text="V";
+			else
+				MessageBox.Show("ERROR 404");
+		}
+		
+		void BtnregresarClick(object sender, EventArgs e)
+		{
+			FormularioPrincipal N= new FormularioPrincipal();
+			N.Show();
+			this.Close();
 		}
 	}
 }

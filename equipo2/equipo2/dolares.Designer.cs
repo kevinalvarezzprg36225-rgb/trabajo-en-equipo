@@ -105,7 +105,7 @@ namespace equipo2
 			// 
 			// button1
 			// 
-			this.button1.Location = new System.Drawing.Point(11, 138);
+			this.button1.Location = new System.Drawing.Point(9, 180);
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(309, 23);
 			this.button1.TabIndex = 9;
@@ -117,7 +117,7 @@ namespace equipo2
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(330, 186);
+			this.ClientSize = new System.Drawing.Size(330, 236);
 			this.Controls.Add(this.button1);
 			this.Controls.Add(this.lblDl);
 			this.Controls.Add(this.lblMx);
