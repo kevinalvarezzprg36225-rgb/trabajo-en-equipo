@@ -47,6 +47,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormularioPrincipal.cs" />
+    <Compile Include="FormularioPrincipal.Designer.cs">
+      <DependentUpon>FormularioPrincipal.cs</DependentUpon>
+    </Compile>
     <Compile Include="login.cs" />
     <Compile Include="login.Designer.cs">
       <DependentUpon>login.cs</DependentUpon>

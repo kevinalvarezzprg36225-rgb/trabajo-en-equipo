@@ -18,8 +18,8 @@ namespace equipo2
 	/// </summary>
 	public partial class MainForm : Form
 	{
-		public string usuario;
-		public int contraseña;
+		public static string usuario="";
+		public static string contraseña="";
 		public MainForm()
 		{
 			//
@@ -35,7 +35,7 @@ namespace equipo2
 		void BtnaceptarClick(object sender, EventArgs e)
 		{
 			usuario = txtusu.Text;
-			contraseña = Convert.ToInt16(txtcontra.Text);
+			contraseña = txtcontra.Text;
 			login l = new login();
 			l.Show();
 			this.Hide();

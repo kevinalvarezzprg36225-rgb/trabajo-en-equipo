@@ -45,56 +45,64 @@ namespace equipo2
 			// 
 			// label1
 			// 
-			this.label1.Location = new System.Drawing.Point(79, 38);
+			this.label1.Font = new System.Drawing.Font("Microsoft Uighur", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label1.Location = new System.Drawing.Point(11, 31);
+			this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(100, 23);
+			this.label1.Size = new System.Drawing.Size(75, 19);
 			this.label1.TabIndex = 0;
-			this.label1.Text = "usuario";
+			this.label1.Text = "Usuario:";
 			// 
 			// label2
 			// 
-			this.label2.Location = new System.Drawing.Point(79, 112);
+			this.label2.Font = new System.Drawing.Font("Microsoft Uighur", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label2.Location = new System.Drawing.Point(11, 67);
+			this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(100, 23);
+			this.label2.Size = new System.Drawing.Size(86, 19);
 			this.label2.TabIndex = 1;
-			this.label2.Text = "contraseña";
+			this.label2.Text = "Contraseña:";
 			// 
 			// txtusu
 			// 
-			this.txtusu.Location = new System.Drawing.Point(317, 38);
+			this.txtusu.Location = new System.Drawing.Point(95, 34);
+			this.txtusu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
 			this.txtusu.Name = "txtusu";
-			this.txtusu.Size = new System.Drawing.Size(234, 22);
+			this.txtusu.Size = new System.Drawing.Size(255, 20);
 			this.txtusu.TabIndex = 2;
 			// 
 			// txtcontra
 			// 
-			this.txtcontra.Location = new System.Drawing.Point(317, 112);
+			this.txtcontra.Location = new System.Drawing.Point(95, 70);
+			this.txtcontra.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
 			this.txtcontra.Name = "txtcontra";
-			this.txtcontra.Size = new System.Drawing.Size(234, 22);
+			this.txtcontra.Size = new System.Drawing.Size(176, 20);
 			this.txtcontra.TabIndex = 3;
 			// 
 			// btnaceptar
 			// 
-			this.btnaceptar.Location = new System.Drawing.Point(219, 238);
+			this.btnaceptar.Location = new System.Drawing.Point(95, 110);
+			this.btnaceptar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
 			this.btnaceptar.Name = "btnaceptar";
-			this.btnaceptar.Size = new System.Drawing.Size(143, 47);
+			this.btnaceptar.Size = new System.Drawing.Size(176, 38);
 			this.btnaceptar.TabIndex = 4;
-			this.btnaceptar.Text = "aceptar";
+			this.btnaceptar.Text = "Registrarse";
 			this.btnaceptar.UseVisualStyleBackColor = true;
 			this.btnaceptar.Click += new System.EventHandler(this.BtnaceptarClick);
 			// 
 			// MainForm
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(750, 403);
+			this.ClientSize = new System.Drawing.Size(378, 177);
 			this.Controls.Add(this.btnaceptar);
 			this.Controls.Add(this.txtcontra);
 			this.Controls.Add(this.txtusu);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);
+			this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
 			this.Name = "MainForm";
-			this.Text = "equipo2";
+			this.Text = "Menu de Registro:";
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
