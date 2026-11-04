@@ -28,5 +28,12 @@ namespace equipo2
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
+		void DolaresToolStripMenuItemClick(object sender, EventArgs e)
+		{
+			dolares d=new dolares();
+			d.Show();
+			this.Hide();
+		}
 	}
 }
