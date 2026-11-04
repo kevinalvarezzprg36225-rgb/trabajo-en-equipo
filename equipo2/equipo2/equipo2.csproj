@@ -47,6 +47,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cordenadas.cs" />
+    <Compile Include="Cordenadas.Designer.cs">
+      <DependentUpon>Cordenadas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dolares.cs" />
+    <Compile Include="dolares.Designer.cs">
+      <DependentUpon>dolares.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormularioPrincipal.cs" />
     <Compile Include="FormularioPrincipal.Designer.cs">
       <DependentUpon>FormularioPrincipal.cs</DependentUpon>
@@ -63,6 +71,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Cordenadas.resx">
+      <DependentUpon>Cordenadas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dolares.resx">
+      <DependentUpon>dolares.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioPrincipal.resx">
+      <DependentUpon>FormularioPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.cs</DependentUpon>
     </EmbeddedResource>
